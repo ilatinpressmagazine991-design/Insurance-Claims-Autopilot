@@ -5,10 +5,15 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.adjudication]
+path = 'contracts/adjudication.clar'
+clarity_version = 3
+epoch = 'latest'
+
 [contracts.intake-and-triage]
 path = 'contracts/intake-and-triage.clar'
 clarity_version = 3
-epoch = 'latest'
+epoch = '3.2'
 [repl.analysis]
 passes = ['check_checker']
 
